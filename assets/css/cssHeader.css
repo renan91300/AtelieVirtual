@@ -1,0 +1,39 @@
+  .list-group-item{ 
+   width: 25%; 
+
+}
+
+  .list-group-item-action{ 
+    width: 25%; 
+  }
+
+  #funciona{ 
+    z-index:1;
+
+  }
+
+  .content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+background-color: #664078; 
+    transition: background-color 1s ease;
+}
+    
+     .back{ 
+    background: #654ea3;
+    background: -webkit-linear-gradient(to left,  #948E99, #2E1437);
+    background: linear-gradient(to left,  #948E99, #2E1437);*/
+
+   }
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: px;
+  
+} 
